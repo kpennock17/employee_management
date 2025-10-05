@@ -1,5 +1,5 @@
 class Employee {
-    constructor (name,department,level = "Associate"){
+    constructor (name,department,){
         this.name = name;
         this.department = department;
     }
@@ -18,3 +18,9 @@ class Manager extends Employee{
         return `${this.name}works in this${this.department}with this team size${this.teamSize}`
     }
 }
+let newEmployees = [
+    new Employee("Isabella", "Sales"),
+    new Employee("Juan", "Production"),
+];
+let emp = new Employee(Maria, Design)
+let man1 = new Manager(Sofia, Design)
