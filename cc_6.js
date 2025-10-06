@@ -24,3 +24,17 @@ let newEmployees = [
 ];
 let emp = new Employee(Maria, Design)
 let man1 = new Manager(Sofia, Design)
+
+class Company {
+    constructor(Employees) {
+        this.Employees = Employees
+    }
+    addEmployee(employee) {
+    this.employee.push(employee);
+  }
+  listEmployees() {
+    this.employees.forEach((employee) => {
+      console.log(`List: ${employee}`);
+    });
+  }
+}
